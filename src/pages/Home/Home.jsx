@@ -18,6 +18,7 @@ import ServicesPage from "../Services/Services";
 import Testimonials from "../Testimonials/Testimonials";
 import ContactPage from "../Contact/Contact";
 import DoctorPage from "../Doctors/Doctors";
+import VirtualDoctor from "../VirtualDoctor/Virtualdoctor";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -359,6 +360,7 @@ export default function Home() {
       <ServicesPage />
       <Testimonials />
       <DoctorPage />
+      <VirtualDoctor/>
       <ContactPage />
     </div>
   );
